@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px 20px 100px 20px;
+}
+
+.greyline::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  left: 12.5%;
+  height: 2px;
+  background-color: hsl(0, 0%, 86%);
+  z-index: 1;
+}
